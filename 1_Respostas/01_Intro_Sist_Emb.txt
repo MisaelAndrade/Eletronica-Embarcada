@@ -1,0 +1,25 @@
+1)O que são sistemas embarcados?
+	R = Sistemas embarcados são sistemas computacionais completos e independentes, mais simples que um computador de propósito geral (desktops), encarregados de executar apenas uma função determinada - tarefas pré-determinadas, com requisitos específicos - na qual executam geralmente repetidas vezes.
+
+2)O que são sistemas microprocesssados?
+	R = São circuitos integrados que realiza as funções de cálculo e tomada de decisão de um computador através de um microprocessador.
+
+3)Apresente aplicações de sistemas embarcados: (a) para a indústria automotiva; (b) para eletrodomésticos; (c) para automação industrial.
+	R = a) Acionamento dos Airbags, controle do sistema de freio ABS
+                         b) Microondas
+	        c) Seleção automática de objetos de acordo com um padrão
+
+4)Cite arquiteturas possíveis e as diferenças entre elas.
+	R = CISC X RISC => A CISC (em inglês: Complex Instruction Set Computing, Computador com um Conjunto Complexo de Instruções), usada em processadores Intel e AMD; suporta mais instruções no entanto, com isso, mais lenta fica a execução delas. A RISC (em inglês: Reduced Instruction Set Computing, Computador com um Conjunto Reduzido de Instruções) usada em processadores PowerPC (da Apple, Motorola e IBM) e SPARC (SUN); suporta menos instruções, e com isso executa com mais rapidez o conjunto de instruções que são combinadas. 
+Von Neumann: 
+	- arquitetura mais simples;
+	- mais lento, pois não permite acesso simultâneo às memórias;
+	- geralmente CISC.	
+Harvard:
+	- arquitetura mais complexa;
+	- mais rápido, pois permite acesso simultâneo às memórias;
+	- geralmente RISC;
+	- permite o Pipelining.
+
+5)Por que usamos o MSP430 na disciplina, ao invés de outro microcontrolador?
+	R = O MSP430 possui uma capacidade de operar em várias aplicações possuindo um caminho de dados de 16 bits, se comparado com outros microcontroladores, a placa de desenvolvimento que iremos utilizar é melhor recomendada para o aprendizado, pois possui uma maior complexidade e requer mais cuidados.
