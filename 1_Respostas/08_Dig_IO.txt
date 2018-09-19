@@ -1,37 +1,37 @@
-Para todas as questıes, utilize os LEDs e/ou os botıes da placa Launchpad do MSP430.
+Para todas as quest√µes, utilize os LEDs e/ou os bot√µes da placa Launchpad do MSP430.
 
-1.Escreva um cÛdigo em C que pisca os LEDs ininterruptamente.
+1.Escreva um c√≥digo em C que pisca os LEDs ininterruptamente.
 
-2.Escreva um cÛdigo em C que pisca os LEDs ininterruptamente. No ciclo que pisca os LEDs, o tempo que os LEDs ficam ligados deve ser duas vezes maior do que o tempo que eles ficam desligados.
+2.Escreva um c√≥digo em C que pisca os LEDs ininterruptamente. No ciclo que pisca os LEDs, o tempo que os LEDs ficam ligados deve ser duas vezes maior do que o tempo que eles ficam desligados.
+R=
+	#include <stdio.h>
+	#include <msp430g2553.h>
 
-#include <stdio.h>
-#include <msp430g2553.h>
+	#define LEDS (BIT0 / BIT6);
 
-#define LEDS (BIT0 / BIT6);
-
-void atraso(volatile unsigned int N)
-{
-	while((N--)>0);
-}
-
-int main (void)
-{
-	WDTCTL = WDTPW | WDTHOLD; 
-	P1DIR |= LEDS;
-	P1OUT &= ~LEDS;
-	
-	while (1)
+	void atraso(volatile unsigned int N)
 	{
-		P1OUT &= ~LEDS;
-		atraso(30000);
-		P1OUT |= LEDS;
-		atraso(60000);
+		while((N--)>0);
 	}
-	return 0;
-}
 
-3.Escreva um cÛdigo em C que acende os LEDs quando o bot„o È pressionado.
+	int main (void)
+	{
+		WDTCTL = WDTPW | WDTHOLD; 
+		P1DIR |= LEDS;
+		P1OUT &= ~LEDS;
 
-4.Escreva um cÛdigo em C que pisca os LEDs ininterruptamente somente se o bot„o for pressionado.
+		while (1)
+		{
+			P1OUT &= ~LEDS;
+			atraso(30000);
+			P1OUT |= LEDS;
+			atraso(60000);
+		}
+		return 0;
+	}
 
-5.Escreva um cÛdigo em C que acende os LEDs quando o bot„o È pressionado. Deixe o MSP430 em modo de baixo consumo, e habilite a interrupÁ„o do bot„o.
+3.Escreva um c√≥digo em C que acende os LEDs quando o bot√£o √© pressionado.
+
+4.Escreva um c√≥digo em C que pisca os LEDs ininterruptamente somente se o bot√£o for pressionado.
+
+5.Escreva um c√≥digo em C que acende os LEDs quando o bot√£o √© pressionado. Deixe o MSP430 em modo de baixo consumo, e habilite a interrup√ß√£o do bot√£o.
