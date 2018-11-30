@@ -2,7 +2,7 @@
 
 Cortador de Grama Autônomo/Automatic Lawn Mower
 
-#Eletrônica Embarcada
+# Eletrônica Embarcada
 
 *Portuguese*
 
@@ -14,7 +14,7 @@ Projeto Final - Desenvolvimento de um robô cortador de Grama autônomo Microcon
 
 *Aviso Legal: Esse projeto apresenta somente fins educacionais e não foi desenvolvido para fins comerciais ou industriais.*
 
-#Hardware
+# Hardware
 
 MSP430G2553 Controlador utilizado.
 
@@ -28,21 +28,21 @@ Code Composer Studio - IDE utilizada para o desenvolvimento do projeto.
 
 1 X Bateria de Lítio 11.1V/3A - Para a autonomia do projeto.
 
-#Autores:
+# Autores:
 
 Jhonathan Nicolas - [JhonathanNicolas](https://github.com/JhonathanNicolas)
 
 Misael Andrade- [MisaelAndrade](https://github.com/MisaelAndrade)
 
-#Agradecimentos:
+# Agradecimentos:
 
 Prof. Diogo Caetano - [DiogoCaetanoGarcia](https://github.com/DiogoCaetanoGarcia)
 
 Jhonathan Nicolas - [JhonathanNicolas](https://github.com/JhonathanNicolas)
 
 ![cap](https://user-images.githubusercontent.com/42355587/49296792-4dae1880-f4a0-11e8-9541-0ad8287477cc.jpg)
-
-#Embedded Electronics
+--------------------------------------------------------------------------------------------------------------------------------
+# Embedded Electronics
 
 *English*
 
@@ -54,7 +54,7 @@ Final Project - Development of a Microcontrolled Autonomous Grass Cutting Robot,
 
 *Disclaimer: This project is for educational purposes only and has not been developed for commercial or industrial purposes.* 
 
-#Hardware.
+# Hardware.
 
 MSP430G2553 Controller used.
 
@@ -68,13 +68,13 @@ Code Composer Studio - IDE used for project development.
 
 1 X 11.1V / 3A Lithium Battery - For project autonomy.
 
-#Authors:
+# Authors:
 
 Jhonathan Nicolas - [JhonathanNicolas](https://github.com/JhonathanNicolas)
 
 Misael Andrade- [MisaelAndrade](https://github.com/MisaelAndrade)
 
-#Thanks:
+# Thanks:
 
 Prof. Diogo Caetano - [DiogoCaetanoGarcia](https://github.com/DiogoCaetanoGarcia)
 
