@@ -1,5 +1,6 @@
 ![logo](https://user-images.githubusercontent.com/42355587/49296791-4d158200-f4a0-11e8-86bf-03ee59045dcb.png)
-Capinator: Cortador de Grama Autônomo/Automatic Lawn Mower
+
+Cortador de Grama Autônomo/Automatic Lawn Mower
 
 Eletrônica Embarcada
 
@@ -34,7 +35,7 @@ Agradecimentos:
 
 Prof. Diogo Caetano - DiogoCaetanoGarcia
 
-Misael Andrade- MisaelAndrade
+Jhonathan Nicolas - JhonathanNicolas
 
 ![cap](https://user-images.githubusercontent.com/42355587/49296792-4dae1880-f4a0-11e8-9541-0ad8287477cc.jpg)
 
@@ -70,4 +71,4 @@ Thanks:
 
 Prof. Diogo Caetano - DiogoCaetanoGarcia
 
-Misael Andrade- MisaelAndrade
+Jhonathan Nicolas - JhonathanNicolas
