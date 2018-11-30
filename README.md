@@ -31,6 +31,7 @@ Autores:
 Jhonathan Nicolas - JhonathanNicolas
 
 Misael Andrade- MisaelAndrade
+
 Agradecimentos:
 
 Prof. Diogo Caetano - DiogoCaetanoGarcia
@@ -67,6 +68,7 @@ Authors:
 Jhonathan Nicolas - JhonathanNicolas
 
 Misael Andrade- MisaelAndrade
+
 Thanks:
 
 Prof. Diogo Caetano - DiogoCaetanoGarcia
